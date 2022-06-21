@@ -1,0 +1,13 @@
+﻿1. Create Models and add Context in respect with Db Diagram
+2. DTOs in respect with specification
+3. Configurations simillarly to Task8
+4. Update startup.cs (Important conection string) "ConnectionStrings": {
+    "DbConnection": "Data Source=db-mssql;Initial Catalog=s22338;Integrated Security=True" (!!! To appsettings.json !!!)
+5. ADD-MIGRATION then UPDATE-DATABASE
+6. Repos/ Interfaces make endpoints interface
+7. Repos/ Implementations make endpoints
+8. Controller
+
+Notes:
+If something goes wrong with db try to delete migrations folder and do the migration again
+Remember about changes in startup.cs
